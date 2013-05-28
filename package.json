@@ -1,0 +1,14 @@
+{
+  "name": "json_soap_proxy",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "soap": "git://github.com/lugovsky/node-soap.git",
+    "connect": "*",
+    "route66": "*",
+    "libxmljs": "0.8.1"
+  }
+}

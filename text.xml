@@ -1,0 +1,57 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://ga.adstream.com"
+               xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"
+               xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:i0="http://tempuri.org/"
+               xmlns:q1="http://schemas.datacontract.org/2004/07/Adstream.GA.Core.Svc">
+    <soap:Header>
+        <UserID xmlns="ga-ns">1</UserID>
+    </soap:Header>
+    <soap:Body>
+        <tns:SetPublication xmlns:tns="http://ga.adstream.com" xmlns="http://ga.adstream.com">
+            <tns:publisherID>40417</tns:publisherID>
+            <tns:pn>
+                <tns:ID>83154</tns:ID>
+                <tns:Key>83154</tns:Key>
+                <tns:AccessFlags>3</tns:AccessFlags>
+                <tns:Affiliations></tns:Affiliations>
+                <tns:AveragePages>0</tns:AveragePages>
+                <tns:Binding>-- Not Issued --</tns:Binding>
+                <tns:BranchOffices></tns:BranchOffices>
+                <tns:CirculationAuditAuthority></tns:CirculationAuditAuthority>
+                <tns:ClassifiedPhone>n/a</tns:ClassifiedPhone>
+                <tns:Code>RDIDUCOEGF</tns:Code>
+                <tns:CountryCode></tns:CountryCode>
+                <tns:CoverPrice></tns:CoverPrice>
+                <tns:Coverage>International</tns:Coverage>
+                <tns:DataProvider>Publisher&apos;s Fax&amp;Telephonic Conversation</tns:DataProvider>
+                <tns:DeadlinesComment>Please contact the Publisher on 33 1 5839 3730 for more information on
+                    Deadlines.
+                </tns:DeadlinesComment>
+                <tns:DeadlinesUrl></tns:DeadlinesUrl>
+                <tns:DirID></tns:DirID>
+                <tns:DisplayPhone>33 1 5839 3730</tns:DisplayPhone>
+                <tns:Distribution></tns:Distribution>
+                <tns:EditorialPhone>33 1 5839 3730</tns:EditorialPhone>
+                <tns:EditorialProfile></tns:EditorialProfile>
+                <tns:Frequency>Annually</tns:Frequency>
+                <tns:InfoUpdateFrequency>28 days</tns:InfoUpdateFrequency>
+                <tns:IsActive>true</tns:IsActive>
+                <tns:LanguageIDs></tns:LanguageIDs>
+                <tns:LastCirculationAuditDate>0001-01-01T00:00:00</tns:LastCirculationAuditDate>
+                <tns:MainUrl></tns:MainUrl>
+                <tns:Metric>2</tns:Metric>
+                <tns:Name>1Revue D Information DU C.O.E.G.F</tns:Name>
+                <tns:PrintGroupID>0</tns:PrintGroupID>
+                <tns:PublicationType>Magazine</tns:PublicationType>
+                <tns:PublisherID>40417</tns:PublisherID>
+                <tns:PublishingDay>n/a</tns:PublishingDay>
+                <tns:RatesComment></tns:RatesComment>
+                <tns:RatesUrl></tns:RatesUrl>
+                <tns:StatsComment></tns:StatsComment>
+                <tns:StatsUrl></tns:StatsUrl>
+                <tns:SubjectCovered>Science&amp;Technology</tns:SubjectCovered>
+                <tns:UseGwgTicket>false</tns:UseGwgTicket>
+                <tns:YearFounded>0</tns:YearFounded>
+            </tns:pn>
+        </tns:SetPublication>
+    </soap:Body>
+</soap:Envelope>
